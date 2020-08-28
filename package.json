@@ -1,0 +1,20 @@
+{
+  "name": "socketTemplate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nuxt",
+    "build": "cross-env NODE_ENV=production nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@adonisjs/websocket-client": "^1.0.9",
+    "@nuxtjs/axios": "^5.12.0",
+    "cross-env": "^7.0.2",
+    "nuxt": "^2.14.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}
